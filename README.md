@@ -24,7 +24,7 @@ Descreva aqui as alterações/correções que fez
 - Coloquei o link certo para o "criar_concerto.html" no layout.html
 
 ## 6
-- O símbolo ♿ foi adicionado inline no "<h2>"
+- O símbolo ♿ foi adicionado inline no "h2"
 - Foi usada uma condição {% if %} para o mostrar apenas quando aplicável
 
 ## 7
