@@ -3,11 +3,6 @@
 {% block content %}
 <article class="card">
     <h2>Editar concerto</h2>
-    <p><strong>Concerto atual:</strong> {{ palco.nome }}</p>
-    <p><strong>Banda:</strong> {{ concerto.banda.nome }}</p>
-    <p><strong>Dia:</strong> {{ concerto.dia.data }}</p>
-    <p><strong>Hora atual:</strong> {{ concerto.hora }}</p>
-    <p><strong>Palco:</strong> {{ concerto.palco.nome }}</p>
 
     <form method="post" style="display: grid; gap: 12px; max-width: 420px;">
         {% csrf_token %}

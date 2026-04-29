@@ -22,3 +22,13 @@ Descreva aqui as alterações/correções que fez
 - Implementei a view criar_concerto_view
 - Criei template criar_concerto.html
 - Coloquei o link certo para o "criar_concerto.html" no layout.html
+
+## 6
+- O símbolo ♿ foi adicionado inline no <h2>
+- Foi usada uma condição {% if %} para o mostrar apenas quando aplicável
+
+## 7
+- Criada a view editar_palco_view com ModelForm e instance=palco
+- Adicionada a rota palcos/<int:palco_id>/editar/
+- Criado template editar_palco.html
+- Ligado o botão “Editar palco” ao sistema de edição
