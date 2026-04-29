@@ -8,6 +8,7 @@
         <p><strong>Hora:</strong> {{ concerto.hora }}</p>
         <p><strong>Palco:</strong> {{ concerto.palco }}</p>
         <p><a href="{% url 'editar_concerto' concerto.id %}" class="btn">Editar este concerto</a></p>
+        <p><a href="{% url 'apagar_concerto' concerto.id %}" class="btn">Apagar concerto</a></p>
     </article>
 
     
